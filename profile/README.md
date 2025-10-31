@@ -11,7 +11,7 @@ Author: `Shamaev Onar Evgenevich (BPI227)`
 ## Description
 
 Project is a software system, that allows microservice application to define their configurations (DTOs),
-push their shemas to RTCMS4J backend and allow developers to update configurations' values via web UI.
+push their schemas to RTCMS4J backend and allow developers to update configurations' values via web UI.
 In terms of this bachelor project, it is planned to focus on Spring Boot microservice applications and
 thus develop pre-defined rtcms4j-client-starter.
 
