@@ -17,4 +17,4 @@ thus develop pre-defined rtcms4j-client-starter.
 
 ## Project architecture
 
-![C4: Containers](c4_containers_v2.png)
+![C4: Containers](c4_containers_v3.png)
