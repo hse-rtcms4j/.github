@@ -29,7 +29,7 @@ Repository: [rtcms4j-env](https://github.com/hse-rtcms4j/rtcms4j-env)
 
 ### Adding Dependency to Your Spring Boot Project
 
-To integrate RTCMS4J into your Spring Boot microservice application, you need to add the `rtcms4j-spring-client-starter` dependency to your `pom.xml` or `build.gradle` file. The current relevant version is `0.1.3`.
+To integrate RTCMS4J into your Spring Boot microservice application, you need to add the `rtcms4j-spring-client-starter` dependency to your `pom.xml` or `build.gradle` file.
 
 #### Maven
 
@@ -77,19 +77,17 @@ spring:
     # The RTCMS4J namespace ID for your application
     namespace-id: 1
     # The RTCMS4J application ID associated with your project
-    application-id: 2
+    application-id: 1
     api:
       # RTCMS4J core API gateway URL
       core-base-url: http://localhost:8000/core/api/v1
       # RTCMS4J notify API gateway URL
       notify-base-url: http://localhost:8000/notify/api/v1
-    # Token refresh offset (prevents token expiration)
-    token-refresh-offset: 10m
     keycloak:
       # Keycloak server URL used by RTCMS4J
       server-url: http://localhost:8080
       # Client ID for RTCMS4J application
-      client-id: ns1_app2
+      client-id: ns1_app1
       # Client secret for RTCMS4J application
       client-secret: o47FZ2ZfRVhCWS7OQUl3I3O6zvAX4g5b
     maintain:
