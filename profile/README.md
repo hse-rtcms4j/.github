@@ -63,7 +63,7 @@ dependencies {
 }
 ```
 
-Replace `{version}` with `0.1.3` for the current release.
+Replace `{version}` with `0.1.4` for the current release.
 
 ### Application Properties
 
