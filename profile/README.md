@@ -63,7 +63,7 @@ dependencies {
 }
 ```
 
-Replace `{version}` with `0.1.6` for the last stable version.
+Replace `{version}` with `1.0.0` for the last stable version.
 
 ### Application Properties
 
