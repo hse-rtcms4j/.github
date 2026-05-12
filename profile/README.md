@@ -15,6 +15,16 @@ push their schemas to RTCMS4J backend and allow developers to update configurati
 In terms of this bachelor project, it is planned to focus on Spring Boot microservice applications and
 thus develop pre-defined rtcms4j-client-starter.
 
+## Preview
+
+System provides a UI for each configuration, allowing to control versions and modify DTO values.
+
+![Configuration page](preview1.png)
+
+To modify DTO values system provides a GUI which guarantees consistency between the form and application.
+
+![Configuration edit GUI](preview2.png)
+
 ## Project architecture
 
 ![C4: Containers](c4_containers_v4.png)
